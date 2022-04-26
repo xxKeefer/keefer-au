@@ -3,9 +3,7 @@ import React from 'react'
 
 import { DJKLogo } from './DJKLogo'
 
-type Props = {}
-
-export const Navbar = (props: Props) => {
+export const Navbar = () => {
     return (
         <HStack
             as="header"

@@ -1,5 +1,5 @@
-import { HStack, Text, TextProps } from '@chakra-ui/react'
-import React, { useState } from 'react'
+import { HStack } from '@chakra-ui/react'
+import React from 'react'
 
 import { EmojiDot } from '../Dot'
 
