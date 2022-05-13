@@ -1,4 +1,4 @@
-import { HStack, Text } from '@chakra-ui/react'
+import { HStack, Stack, Text } from '@chakra-ui/react'
 import React from 'react'
 import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 
@@ -16,8 +16,9 @@ export const MainFooter = () => {
             position="fixed"
             bottom="0"
             w="full"
+            zIndex={999}
         >
-            <HStack>
+            <Stack direction={{ base: 'column', md: 'row' }}>
                 <HStack px="4">
                     <Dot color="pirate.500" size="10px" />
                     <Dot color="knight.500" size="10px" />
@@ -26,11 +27,16 @@ export const MainFooter = () => {
                     <Dot color="knight.500" size="10px" />
                     <Dot color="wizard.500" size="10px" />
                 </HStack>
-                <Text color="keefer.white" size="xs">
+                <Text
+                    color="keefer.white"
+                    fontSize={{ base: 'xs', md: 'sm' }}
+                    fontWeight={500}
+                    pl={{ base: '4', md: '0' }}
+                >
                     Daniel John Keefer, &copy; Copyright{' '}
                     {new Date().getFullYear()}
                 </Text>
-            </HStack>
+            </Stack>
             <HStack px="4">
                 <Dot
                     color="pirate.500"

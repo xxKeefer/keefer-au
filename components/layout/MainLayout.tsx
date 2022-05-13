@@ -17,6 +17,8 @@ export const MainLayout = ({ children }: Props) => {
                 bg="keefer.white"
                 color="keefer.black"
                 py="100px"
+                w="full"
+                maxW="4xl"
             >
                 {children}
             </Container>

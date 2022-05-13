@@ -61,10 +61,13 @@ export const theme = extendTheme({
                 paddingBottom: ['0.1rem', '1rem'],
             },
             'h1, h2, h3': {
-                color: 'wizard.700',
+                color: 'keefer.black',
             },
             'h4, h5, h6': {
-                color: 'pirate.300',
+                color: 'keefer.black',
+            },
+            'p, span': {
+                fontSize: '1.2rem',
             },
             li: {
                 marginLeft: '1rem',

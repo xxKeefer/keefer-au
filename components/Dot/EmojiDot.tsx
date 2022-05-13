@@ -20,6 +20,7 @@ export const EmojiDot = ({ char, emoji, color }: Props) => {
             <Text
                 as="span"
                 color="keefer.black"
+                fontFamily="Poppins"
                 cursor="default"
                 fontWeight="black"
                 fontSize={hover ? 'xl' : '3xl'}

@@ -14,6 +14,7 @@ export const Navbar = () => {
             position="fixed"
             top="0"
             w="full"
+            zIndex={999}
         >
             <DJKLogo />
         </HStack>

@@ -13,6 +13,7 @@
         "import/no-anonymous-default-export": "off",
         "import/no-duplicates": "warn",
         "no-unused-expressions": "warn",
-        "no-unused-vars": "warn"
+        "no-unused-vars": "warn",
+        "react/no-unescaped-entities": "off"
     }
 }

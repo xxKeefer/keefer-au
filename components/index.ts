@@ -1,1 +1,5 @@
+export * from './Bars'
+export * from './Dot'
 export * from './layout'
+export * from './Projects'
+export * from './Timeline'
