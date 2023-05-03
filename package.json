@@ -10,7 +10,7 @@
         "fix": "npx eslint . --ext ts --ext tsx --fix"
     },
     "dependencies": {
-        "@chakra-ui/react": "^1.8.8",
+        "@chakra-ui/react": "^2.6.0",
         "@emotion/react": "^11",
         "@emotion/styled": "^11",
         "@fontsource/barlow-semi-condensed": "^4.5.8",

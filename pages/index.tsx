@@ -123,17 +123,17 @@ const Home: NextPage = () => {
                         product={{
                             name: 'Omen Docs',
                             image: '/projects/omen-docs.png',
-                            url: 'https://omen-docs.vercel.app/',
-                            github: 'https://github.com/xxKeefer/omen-website-v2',
+                            url: 'https://t3-omen.vercel.app/',
+                            github: 'https://github.com/xxKeefer/t3-omen',
                         }}
                     >
                         My friend Ben is developing a new Table top RPG
                         influence by all the best parts of his favourite systems
                         designed to let the story be in the control of the
-                        players and not the dice. It has already a very deep
-                        rule set with lots of fun mechanics and I built him this
-                        website so the rules could be easily accessed by our
-                        friends who play. Built with Next.js and MDX
+                        players and not the dice. I built him this website so
+                        the rules could be easily accessed by our friends who
+                        play. Built with Next.js, Prisma, Sanity, tRPC and
+                        Typescript.
                     </Project>
                     <Project
                         product={{
